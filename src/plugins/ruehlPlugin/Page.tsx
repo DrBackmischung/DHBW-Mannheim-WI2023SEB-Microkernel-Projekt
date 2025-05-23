@@ -50,18 +50,18 @@ export const RuehlPluginPage: React.FC = () => (
     <div style={styles.imageGrid}>
       <img 
         style={styles.image}
-        src="https://www.evolution-of-bodybuilding.net/wp-content/uploads/2016/05/Markus-Ruhl-27.jpg"
-        alt="Markus Rühl Posing"
+        src="/src/plugins/ruehlPlugin/img/ruehl.jpeg"
+        alt="Markus Rühl 1"
       />
       <img 
         style={styles.image}
-        src="https://fitnessvolt.com/wp-content/uploads/2021/01/markus-ruhl-most-muscular.jpg"
-        alt="Markus Rühl Most Muscular"
+        src="/src/plugins/ruehlPlugin/img/ruehl.jpeg"
+        alt="Markus Rühl 2"
       />
       <img 
         style={styles.image}
-        src="https://www.muscleandfitness.com/wp-content/uploads/2018/07/Markus-Ruhl-Shoulder-Exercise-Gulf-Coast-Finals-NPC-72.jpg"
-        alt="Markus Rühl Training"
+        src="/src/plugins/ruehlPlugin/img/ruehl.jpeg"
+        alt="Markus Rühl 3"
       />
     </div>
 
@@ -72,13 +72,13 @@ export const RuehlPluginPage: React.FC = () => (
     <div style={styles.imageGrid}>
       <img 
         style={styles.image}
-        src="https://www.greatestphysiques.com/wp-content/uploads/2016/08/markus-ruhl-biceps.jpg"
-        alt="Markus Rühl Biceps"
+        src="/src/plugins/ruehlPlugin/img/ruehl.jpeg"
+        alt="Markus Rühl 4"
       />
       <img 
         style={styles.image}
-        src="https://fitnessvolt.com/wp-content/uploads/2016/12/markus-ruhl-13-750x422.jpg"
-        alt="Markus Rühl Classic"
+        src="/src/plugins/ruehlPlugin/img/ruehl.jpeg"
+        alt="Markus Rühl 5"
       />
     </div>
 
