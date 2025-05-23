@@ -5,8 +5,8 @@ pluginManager.register({
   id: "wheelOfNames",
   route: "/wheelOfNames",
   component: WheelOfNamesPluginPage,
-  tile: "Hello World! 🚀",
-  color1: "red", 
-  color2: "yellow",
+  tile: "Wheel Of Names",
+  color1: "blue", 
+  color2: "purple",
   spin: 135
 });

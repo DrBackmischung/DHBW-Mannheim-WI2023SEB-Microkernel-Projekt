@@ -44,14 +44,15 @@ export const WheelOfNamesPluginPage: React.FC = () => {
       ctx.restore();
     });
 
-    // Draw pointer
+        // Draw pointer on the right side
     ctx.fillStyle = "#000";
     ctx.beginPath();
-    ctx.moveTo(radius, 0);
-    ctx.lineTo(radius - 10, 20);
-    ctx.lineTo(radius + 10, 20);
+    ctx.moveTo(canvas.width, radius); // Tip of the pointer
+    ctx.lineTo(canvas.width - 20, radius - 10);
+    ctx.lineTo(canvas.width - 20, radius + 10);
     ctx.closePath();
     ctx.fill();
+
   };
 
   useEffect(() => {
@@ -75,9 +76,9 @@ export const WheelOfNamesPluginPage: React.FC = () => {
   const spinWheel = () => {
     if (spinning || names.length === 0) return;
     setSpinning(true);
-    const spinSpeed = Math.random() * 0.3 + 0.3;
+    const spinSpeed = Math.random() * 0.8 + 0.3;
     const startAngle = angle;
-    const spinDuration = 4000;
+    const spinDuration = 3000;
     let startTime: number;
 
     const animate = (timestamp: number) => {
