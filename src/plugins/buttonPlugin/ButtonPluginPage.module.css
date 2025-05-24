@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.coolButton {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 14px 28px;
+  font-size: 18px;
+  background: linear-gradient(135deg, #00ccff, #3333ff);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 0 20px #00f7ff;
+  transition: transform 0.2s ease;
+}
